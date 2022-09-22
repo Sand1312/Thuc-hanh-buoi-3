@@ -2,11 +2,10 @@
 using namespace std;
 class car
 {
-private:
+public:
     string brand;
     int weight;
     int seats;
-public:
     car(){
         brand="N/A";
         weight=0;
