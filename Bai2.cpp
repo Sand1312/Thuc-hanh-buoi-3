@@ -2,6 +2,7 @@
 using namespace std;
 class car
 {
+private:  
     string brand;
     int weight;
     int seats;
