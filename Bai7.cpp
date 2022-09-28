@@ -33,7 +33,7 @@ public:
         float delta=b*b-4*a*c;
         if (delta<0) cout<<"Phuong trinh vo nghiem\n";
         else if (delta==0) cout<<"PHuong trinh co nghiem kep x1=x2="<<fixed<< setprecision(3)<<static_cast <float> (-b/2*a);
-        else cout <<"Nghiem thu nhat = "<<fixed<<setprecision(3)<<static_cast<float>((-b+sqrt(delta))/2*a)<<" "<<"Nghiem thu 2 = "<<fixed<<setprecision(3)<<static_cast<float>((-b-sqrt(delta))/2*a);
+        else cout <<"Nghiem thu nhat = "<<fixed<<setprecision(3)<<static_cast<float>((-b+sqrt(delta))/(2*a))<<" "<<"Nghiem thu 2 = "<<fixed<<setprecision(3)<<static_cast<float>((-b-sqrt(delta))/(2*a));
     }
 };
 int main (){
